@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Boleta } from './boleta.class';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'boletas';
+
+  boleta = new Boleta();
+
+  
+  constructor(){
+  }
+
 }
